@@ -2,7 +2,28 @@
     height: 648px;
     width: 100%;   
 }
+.banner-section{
+  background-color: #230c33;
+  opacity: 1;
 
+  height: 60px;
+  font-size: @btn-font;  
+  nav{
+    display:flex;
+    justify-content: flex-end;
+    align-content: end;
+    
+      a{
+        margin:18px 0 0 30px;
+        .nav-text();
+        color: #ffffff;
+        border: 1px solid white;
+        border-radius:4px;
+        padding:5px
+        
+      }
+  }
+}//Below Hero Image
 .container{
 
     .header{
@@ -13,46 +34,9 @@
         }
     }//header
 
-    .banner-section{
-      background-color: #230c33;
-      opacity: 0.9;
-      z-index: 50;
-      height: 60px;
-      font-size: @btn-font;  
-      nav{
-        display:flex;
-        justify-content: flex-end;
-        align-content: end;
-        
-          a{
-            margin:18px 0 0 30px;
-            .nav-text();
-            color: #ffffff;
-            border: 1px solid white;
-            
-          }
-      }
-    }//Below Hero Image 
-
-  .product-info{
-    .flex();
-    justify-content: space-between;
-    margin-bottom: 13%;
-      .style1{
-        .article-card();
-      }
-      .style2{
-         .article-card();
-      }
-      .style3{
-        .article-card();
-      }
-      .style4{
-        .article-card();
-      }
-
     
-  }//Icon Section
+
+  
   .middle-content{
     
    
@@ -68,9 +52,10 @@
     }
     .mid-bottom{
       .flex();
+      margin-bottom: 13%;
       .two-dogs{
         height:300px;
       }
     }
-  }
+  }// middle content
 }//Home
