@@ -1,0 +1,41 @@
+//MIXINS
+.flex(){
+  display: flex;
+}
+//Nav Items
+.nav-text(){
+    text-decoration: none;
+    color: black;
+}
+
+//CTA Button 
+.cta-btn(){
+  color: aliceblue;  
+}
+// Article Cards
+.article-card(){
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin:10px;
+
+}
+
+//PARAMETRIC MIXINS
+
+.button(@br,@h, @w, @b){
+    border-radius: @br;
+    height: @h;
+    width: @w;
+   background-color: @b;
+    
+  }
+  
+  .button-layout(@ta, @p, @fs ){
+    text-align: @ta;
+    padding: @p;
+    font-size:@fs
+}
+
+

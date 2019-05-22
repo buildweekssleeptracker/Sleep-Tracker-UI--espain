@@ -1,0 +1,239 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+.dog {
+  height: 648px;
+  width: 100%;
+}
+.banner-section {
+  background-color: #230c33;
+  opacity: 0.7;
+  height: 60px;
+  font-size: 1.7rem;
+}
+.banner-section nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+}
+.banner-section nav a {
+  margin: 18px 0 0 30px;
+  text-decoration: none;
+  color: black;
+  color: #ffffff;
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 5px;
+}
+.container .header h1 {
+  font-size: 3rem;
+}
+.container .middle-content h2 {
+  color: #230c33;
+}
+.container .middle-content .mid-top {
+  display: flex;
+  margin-bottom: 15%;
+}
+.container .middle-content .mid-top .glasses-doggo {
+  height: 300px;
+}
+.container .middle-content .mid-bottom {
+  display: flex;
+  margin-bottom: 13%;
+}
+.container .middle-content .mid-bottom .two-dogs {
+  height: 300px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.header h1 {
+  font-size: 3rem;
+  margin-left: 42px;
+}
+.header nav {
+  display: flex;
+  align-content: center;
+  margin-left: 50%;
+}
+.header nav a {
+  margin: 0px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 11px;
+  height: 34px;
+  width: 80px;
+  background-color: #7b4aa4;
+  text-align: center;
+  padding: 7px;
+  font-size: 1.7rem;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Roboto";
+  color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Baloo-Bhaijaan';
+  color: black;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2.8rem;
+}
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 13%;
+}
+.product-info .style1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  margin-left: -4rem;
+}
+.product-info .style2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  margin-left: -4rem;
+}
+.product-info .style3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  margin-left: -4rem;
+}
+.product-info .style4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+  margin-left: -4rem;
+}
