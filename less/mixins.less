@@ -1,5 +1,30 @@
+//MIXINS
+
+//Nav Items
 .nav-text(){
     text-decoration: none;
     color: black;
 }
+
+//CTA Button 
+.cta-btn(){
+  color: aliceblue;  
+}
+
+//PARAMETRIC MIXINS
+
+.button(@br,@h, @w, @b){
+    border-radius: @br;
+    height: @h;
+    width: @w;
+   background-color: @b;
+    
+  }
+  
+  .button-layout(@ta, @p, @fs ){
+    text-align: @ta;
+    padding: @p;
+    font-size:@fs
+}
+
 

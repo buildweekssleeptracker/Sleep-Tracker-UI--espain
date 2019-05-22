@@ -90,8 +90,37 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-.container header h1 {
+.container .header h1 {
   font-size: 3rem;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+}
+.header h1 {
+  font-size: 3rem;
+  margin-left: 42px;
+}
+.header nav {
+  display: flex;
+  align-content: center;
+  margin-left: 50%;
+}
+.header nav a {
+  color: white;
+  margin: 0px 30px;
+  text-decoration: none;
+  color: black;
+  border-radius: 11px;
+  height: 34px;
+  width: 80px;
+  background-color: #7b4aa4;
+  text-align: center;
+  padding: 7px;
+  font-size: 1.7rem;
 }
 * {
   box-sizing: border-box;
@@ -123,7 +152,7 @@ p {
   line-height: 1.4;
 }
 .container {
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
 }
