@@ -90,8 +90,34 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+.dog {
+  height: 648px;
+  width: 100%;
+}
 .container .header h1 {
   font-size: 3rem;
+}
+.container .banner-section {
+  background-color: #230c33;
+  opacity: 0.9;
+  z-index: 50;
+  height: 60px;
+  font-size: 1.7rem;
+}
+.container .banner-section nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+}
+.container .banner-section nav a {
+  margin: 18px 0 0 30px;
+  text-decoration: none;
+  color: black;
+  color: #ffffff;
+  border: 1px solid white;
+}
+.container .product-info {
+  display: flex;
 }
 .header {
   display: flex;
@@ -120,10 +146,6 @@ video {
   text-align: center;
   padding: 7px;
   font-size: 1.7rem;
-}
-.dog {
-  height: 648px;
-  width: 100%;
 }
 * {
   box-sizing: border-box;

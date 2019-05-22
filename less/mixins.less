@@ -1,5 +1,7 @@
 //MIXINS
-
+.flex(){
+  display: flex;
+}
 //Nav Items
 .nav-text(){
     text-decoration: none;
@@ -10,7 +12,13 @@
 .cta-btn(){
   color: aliceblue;  
 }
+// Article Cards
+.article-card(){
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
 
+}
 //PARAMETRIC MIXINS
 
 .button(@br,@h, @w, @b){
