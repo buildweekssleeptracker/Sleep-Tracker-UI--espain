@@ -119,6 +119,7 @@ video {
 .container .product-info {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 13%;
 }
 .container .product-info .style1 {
   width: 250px;
@@ -153,9 +154,13 @@ video {
 }
 .container .middle-content .mid-top {
   display: flex;
+  margin-bottom: 15%;
 }
 .container .middle-content .mid-top .glasses-doggo {
   height: 300px;
+}
+.container .middle-content .mid-bottom {
+  display: flex;
 }
 .container .middle-content .mid-bottom .two-dogs {
   height: 300px;
