@@ -118,6 +118,47 @@ video {
 }
 .container .product-info {
   display: flex;
+  justify-content: space-between;
+}
+.container .product-info .style1 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+}
+.container .product-info .style2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+}
+.container .product-info .style3 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+}
+.container .product-info .style4 {
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #b3c2f2;
+  margin: 10px;
+}
+.container .middle-content h2 {
+  color: #230c33;
+}
+.container .middle-content .mid-top {
+  display: flex;
+}
+.container .middle-content .mid-top .glasses-doggo {
+  height: 300px;
+}
+.container .middle-content .mid-bottom .two-dogs {
+  height: 300px;
 }
 .header {
   display: flex;
