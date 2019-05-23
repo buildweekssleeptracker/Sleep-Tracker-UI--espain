@@ -157,7 +157,8 @@ video {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .header h1 {
   font-size: 3rem;
@@ -180,6 +181,17 @@ video {
   padding: 7px;
   font-size: 1.7rem;
   color: white;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+.social .fab {
+  font-size: 40px;
+  margin: 10px 25px;
+}
+.social .fab :hover {
+  color: #9984d4;
 }
 * {
   box-sizing: border-box;
@@ -282,4 +294,17 @@ p {
 .hero-image .hero-pic {
   height: 650px;
   width: 100%;
+}
+.cards {
+  display: flex;
+}
+.cards .card {
+  background-color: #b3c2f2;
+  width: 380px;
+  margin-bottom: 16px;
+  padding: 24px;
+  display: flex;
+}
+.cards .fab {
+  font-size: 40px;
 }
