@@ -10,7 +10,7 @@ class TabLink {
         this.cards = document.querySelectorAll(`.card[data-tab=${this.tabData}]`);
         }
         this.cards = Array.from(this.cards).map(card => new TabCard(card));
-        this.tabGoals.addEventListener("click", ()=> this.selectTab())
+        this.tabGoals.addEventListener("click", ()=> this.selectTab());
 
     }
 
@@ -20,7 +20,7 @@ class TabLink {
     const tabs = document.querySelectorAll('.tab');
     tabs.forEach(tab => tab.classList.remove('active-tab'));
     const cards = document.querySelectorAll('.card');
-    cards.forEach(card => card.getElementsByClassName.display = 'none');
+    cards.forEach(card => card.style.display = 'none');
     this.tabGoals.classList.add('active-tab');
     this.cards.forEach(card => card.selectCard());
 
