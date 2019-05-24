@@ -2,9 +2,10 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    //border-bottom: 1px solid black;
     margin-bottom: 20px;
     margin-top: 20px;
+     
+    
     
     h1{
         font-size: @h1-font;
@@ -16,7 +17,9 @@
         display: flex;
         align-content: center;
         margin-left: 50%;
-
+        @media @phone{
+          margin-right: 30%;
+        } 
             a{
                 
                 margin: 0px 30px;
@@ -24,6 +27,8 @@
                 .button(11px,34px,80px,rgb(123, 74, 164));
                 .button-layout(center, 7px,@btn-font);
                 color: white;
+                 
+
             }    
         
     }//nav
