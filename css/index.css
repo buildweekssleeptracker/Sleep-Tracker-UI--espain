@@ -186,12 +186,12 @@ video {
   display: flex;
   justify-content: space-evenly;
 }
+.social :hover {
+  color: #9984d4;
+}
 .social .fab {
   font-size: 40px;
   margin: 10px 25px;
-}
-.social .fab :hover {
-  color: #9984d4;
 }
 * {
   box-sizing: border-box;
@@ -295,6 +295,26 @@ p {
 .hero-image .hero-pic {
   height: 650px;
   width: 100%;
+}
+.house-of-cards .card {
+  background-color: #e3e5e8;
+  width: 300px;
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+.house-of-cards .card img {
+  width: 300px;
+  border-radius: 10px;
+}
+.house-of-cards .card .name {
+  font-size: 20px;
+  margin: 3% 0;
+  margin-left: 2%;
+}
+.house-of-cards .card .fab {
+  font-size: 30px;
+  margin-left: 2%;
+  margin-bottom: 3%;
 }
 .tabs {
   background-color: antiquewhite;
