@@ -259,6 +259,7 @@ p {
   font-size: 5em;
   margin-left: 0;
   background: -webkit-linear-gradient(#b3c2f2, #592e83);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   max-width: 100%;
@@ -295,16 +296,6 @@ p {
   height: 650px;
   width: 100%;
 }
-.cards {
-  display: flex;
-}
-.cards .card {
-  background-color: #b3c2f2;
-  width: 380px;
-  margin-bottom: 16px;
-  padding: 24px;
-  display: flex;
-}
-.cards .fab {
-  font-size: 40px;
+.tabs {
+  background-color: antiquewhite;
 }
