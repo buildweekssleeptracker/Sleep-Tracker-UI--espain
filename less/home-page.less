@@ -1,10 +1,15 @@
 .dog{
     height: 648px;
-    width: 100%;   
+    width: 100%;
+      @media @phone{
+        width: 100%;
+      } 
 }
 .banner-section{
   background-color: #230c33;
   opacity: 0.7;
+  width: 100%;
+   
 
   height: 60px;
   font-size: @btn-font;  
@@ -12,50 +17,116 @@
     display:flex;
     justify-content: flex-end;
     align-content: end;
+    @media @phone{
+      width: 100%;
+    } 
     
       a{
         margin:18px 0 0 30px;
+        margin-right: 3%;
         .nav-text();
         color: #ffffff;
         border: 1px solid white;
         border-radius:4px;
-        padding:5px
+        padding:5px;
+        @media @phone{
+          margin-right: 10%;
+        }
+        
         
       }
   }
 }//Below Hero Image
 .container{
+  @media @phone{
+    width: 490px;
+  } 
 
     .header{
-
+      @media @phone{
+        width: 100%;
+      } 
         h1 {
           font-size: 3rem;
 
         }
     }//header
 
-    
-
-  
   .middle-content{
+    h4{
+      font-size: 2rem;
+      margin-bottom: 3%;
+    }
     
-   
     h2{
+      margin-top: 45px;
+      margin-left:26%;
+      margin-bottom: 6%;
       color: #230c33;
+      @media @phone{
+        margin-left: 6%;
+        margin-bottom: 4%;
+      } 
     }
     .mid-top{
       .flex();
-      margin-bottom: 15%;
+      margin-bottom: 10%;
+      @media @phone{
+        flex-direction: column-reverse;
+      } 
+      h4{
+        font-size: 2rem;
+      }
+
       .glasses-doggo{
         height: 300px;
+        @media @phone{
+          width:100%;
+          margin-right:20px;
+        } 
       }
+
+    .mid-section1{
+        margin-top:10%;
+        margin-left:30px;
+        @media @phone{
+          margin-bottom: 40px;
+          margin-top:6px;
+        } 
+      }
+      
     }
     .mid-bottom{
       .flex();
       margin-bottom: 13%;
+      @media @phone{
+       flex-direction: column;
+       width: 100%;
+       margin-bottom: 45px;
+        
+      } 
+
       .two-dogs{
         height:300px;
+        margin-left: 30px;
+        @media @phone{
+          width:100%;
+          margin-left: 0px;
+          margin-top: 40px;
+        } 
+      }//image
+
+      .mid-section2{
+        margin-top:61px; 
+        @media @phone{
+          width:490px;
+          margin-left: 10px;
+          h4{
+            margin:0 20px;
+          }
+          
+        } 
       }
-    }
+     }   
   }// middle content
-}//Home
+}
