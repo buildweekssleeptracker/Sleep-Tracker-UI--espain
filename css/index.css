@@ -127,6 +127,11 @@ video {
   padding: 5px;
 }
 @media (max-width:500px) {
+  .banner-section nav a {
+    margin-right: 10%;
+  }
+}
+@media (max-width:500px) {
   .container {
     width: 490px;
   }
@@ -144,6 +149,7 @@ video {
   margin-bottom: 3%;
 }
 .container .middle-content h2 {
+  margin-top: 45px;
   margin-left: 26%;
   margin-bottom: 6%;
   color: #230c33;
@@ -211,6 +217,10 @@ video {
   margin-top: 61px;
 }
 @media (max-width:500px) {
+  .container .middle-content .mid-bottom .mid-section2 {
+    width: 490px;
+    margin-left: 10px;
+  }
   .container .middle-content .mid-bottom .mid-section2 h4 {
     margin: 0 20px;
   }
@@ -233,7 +243,7 @@ video {
 }
 @media (max-width:500px) {
   .header nav {
-    margin-right: 30%;
+    margin-left: 105px;
   }
 }
 .header nav a {
@@ -259,6 +269,11 @@ video {
 .social .fab {
   font-size: 40px;
   margin: 10px 25px;
+}
+@media (max-width:500px) {
+  .social .fab {
+    margin-left: 50px;
+  }
 }
 * {
   box-sizing: border-box;
@@ -299,8 +314,14 @@ p {
   font-size: 30px;
   height: 50px;
 }
+.header button {
+  font-size: 25px;
+  border-radius: 10px;
+  color: #230c33;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
 footer {
-  background-color: #230c33;
   font-size: 25px;
   height: 50px;
   display: flex;
@@ -398,6 +419,7 @@ footer .footer-logo {
   margin-bottom: 30px;
   color: #592e83;
   box-shadow: 0px 0px 4px black;
+  text-decoration: none;
 }
 .house-of-cards .card {
   background-color: #e3e5e8;
