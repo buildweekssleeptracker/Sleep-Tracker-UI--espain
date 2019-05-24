@@ -309,6 +309,9 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.header a {
+  text-decoration: none;
+}
 .header .top-logo {
   color: #230c33;
   font-size: 30px;
@@ -419,6 +422,9 @@ footer .footer-logo {
   margin-bottom: 30px;
   color: #592e83;
   box-shadow: 0px 0px 4px black;
+  text-decoration: none;
+}
+.hero-image a {
   text-decoration: none;
 }
 .house-of-cards .card {
