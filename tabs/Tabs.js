@@ -16,7 +16,7 @@ class TabLink {
 
 
     selectTab(){
-      debugger;
+      
     const tabs = document.querySelectorAll('.tab');
     tabs.forEach(tab => tab.classList.remove('active-tab'));
     const cards = document.querySelectorAll('.card');
